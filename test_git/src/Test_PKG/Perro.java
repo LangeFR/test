@@ -4,9 +4,9 @@ package Test_PKG;
 public class Perro {
     private String nombre;
     private String correo;
-    private int  nickName;
+    private String nickName;
 
-    Perro(String nombre, String correo, int nickName){
+    Perro(String nombre, String correo, String nickName){
         this.nombre = nombre;
         this.correo = correo;
         this.nickName = nickName;
