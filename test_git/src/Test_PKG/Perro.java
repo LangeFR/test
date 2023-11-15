@@ -14,4 +14,9 @@ public class Perro {
 
     public String getNombre(){return nombre;}
     public String getCorreo(){return correo;}
+    public int getNickName(){return nickName;}
+
+    public void setNickName(int nickName){
+        this.nickName = nickName;
+    }
 }
