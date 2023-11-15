@@ -3,8 +3,8 @@ package Test_PKG;
 
 public class Perro {
     private String nombre;
-    public int correo;
-    private int nickName;
+    public String correo;
+    private String nickName;
 
     Perro(String nombre, int correo, int nickName){
         nombre = nombre;
