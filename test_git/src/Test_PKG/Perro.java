@@ -13,6 +13,6 @@ public class Perro {
     }
 
     public String getNombre(){return nombre;}
-
-
+    public String getCorreo(){return correo;}
+    public String getNickName(){return nickName;}
 }
